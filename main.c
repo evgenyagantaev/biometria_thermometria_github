@@ -41,7 +41,7 @@ const int sleep_period = 1;
 #define number_of_sensors 19
 
 // variables *****************************************************************************************
-#include "/root/uuid"   // uuid of this machine
+#include "/root/uuid.h"   // uuid of this machine
 
 int16_t dataToTransmit[9* number_of_sensors];
 int16_t gyro_calibration[number_of_sensors][3];
