@@ -1,0 +1,5 @@
+biometria_thermo
+**/*.[od]
+aux/**/*
+obj/**/*
+cscope*
